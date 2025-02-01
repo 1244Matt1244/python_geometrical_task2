@@ -1,0 +1,34 @@
+python_geometrical_task/
+├── .github/
+│   └── workflows/
+│       └── python.yml
+├── data/
+│   ├── points2D.txt        # (example data, you may add your own)
+│   ├── points3D.txt
+│   ├── pointsND.txt
+│   ├── x2D.txt
+│   └── x3D.txt
+├── docs/
+│   └── README_docs.md       # (project documentation; optional)
+├── scripts/
+│   └── sample_script.py     # (any helper scripts; optional)
+├── src/
+│   └── geometric_shapes/
+│       ├── __init__.py
+│       ├── base_shape.py
+│       ├── circle.py
+│       ├── exceptions.py
+│       ├── sphere.py
+│       └── cli.py         # (command-line interface; optional)
+├── tests/
+│   ├── __init__.py
+│   ├── test_circle.py
+│   └── test_sphere.py
+├── utils/
+│   └── visualization.py    # (optional utility functions)
+├── .gitignore
+├── .pre-commit-config.yaml
+├── README.md
+├── pyproject.toml
+├── setup.py
+└── usage_example.py
